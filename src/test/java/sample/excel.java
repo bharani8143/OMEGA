@@ -75,7 +75,8 @@ public class excel {
         u1.add("google");
         u1.add("openwhatsapp");
         u1.add("hey google");
-        u1.add("movetonex");
+        u1.add("movetonextrow");
+        u1.add("addonerow");
 
         // Loop to create rows and add list values
         for (int i = 0; i < u1.size(); i++) {
@@ -92,4 +93,3 @@ public class excel {
         System.out.println("File saved successfully at " + ab.getAbsolutePath());
     }
 }
-
